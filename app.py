@@ -1,10 +1,21 @@
 from flask import Flask, render_template, request
-# from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///fihing.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# db = SQLAlchemy(app)
+db = SQLAlchemy(app)
+
+
+class Fish(db.Moel):
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(100), nullable=False)
+    text = db.Column(db.Text, nullable=False)
+
+app.app_context().push()
+def __repr__(self):
+    return '<Fish %r>' %self.id
+
 @app.route('/')
 @app.route('/home')
 def home():
@@ -18,9 +29,9 @@ def journeys():
 def places():
     return render_template('places.html')
 
-# @app.route('/user/<string:name>/<int:id>')
-# def user(name, id):
-#     return 'user page' + name + "-" + str(id)
+@app.route('/user/<string:name>/<int:id>')
+def user(name, id):
+    return 'user page' + name + "-" + str(id)
 
 if __name__=='__main__':
     app.run(debug=True)
