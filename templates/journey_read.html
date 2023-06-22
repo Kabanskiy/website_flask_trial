@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ fish.title}}
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h3>{{ fish.title}}</h3>
+
+        <div class="col-lg-9 z-index-2 border-radius-xl mt-n10 mx-auto py-3 blur shadow-blur">
+            <p>{{ fish.info }}</p>
+            <p><b>Дата: {{ fish.date.date() }}</b></p>
+<!--            <p>{{ fish.text }}</p>-->
+        </div>
+    </div>
+{% endblock %}

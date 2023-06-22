@@ -7,5 +7,13 @@
 {% block body %}
     <div class="container">
         <h3>Наши путешествия</h3>
+        {% for riba in fishes %}
+        <div class="card-body mt-n10 bg-blue me-6 rounded-end p-5 ">
+            <h4>{{ riba.title }}</h4>
+            <p>{{ riba.intro }}</p>
+            <p><b>Дата: {{ riba.date.date() }}</b></p>
+            <a href="/journeys/{{ riba.id }}" class="btn btn-outline-dark">Читать</a>
+        </div>
+        {% endfor %}
     </div>
 {% endblock %}
