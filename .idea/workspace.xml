@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ba45cb-f262-43c8-b89a-3fae2e6f6a92" name="Changes" comment="Добавлены посты">
-      <change afterPath="$PROJECT_DIR$/templates/journey_update.html" afterDir="false" />
+    <list default="true" id="c9ba45cb-f262-43c8-b89a-3fae2e6f6a92" name="Changes" comment="Добавлена функция редактирования статей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/journey_read.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/journey_read.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/journeys.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/journeys.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/places.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/places.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687465734615</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавлена функция редактирования статей">
+      <created>1687728471116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687728471117</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +156,7 @@
     <MESSAGE value="Добавлены стили" />
     <MESSAGE value="Добавлена страница &quot;поделиться&quot;" />
     <MESSAGE value="Добавлены посты" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены посты" />
+    <MESSAGE value="Добавлена функция редактирования статей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена функция редактирования статей" />
   </component>
 </project>
