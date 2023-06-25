@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ba45cb-f262-43c8-b89a-3fae2e6f6a92" name="Changes" comment="" />
+    <list default="true" id="c9ba45cb-f262-43c8-b89a-3fae2e6f6a92" name="Changes" comment="Добавлены посты">
+      <change afterPath="$PROJECT_DIR$/templates/journey_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/journey_read.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/journey_read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/journeys.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/journeys.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,21 +25,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2RAHhYAhnrCWCquO04AmSfWuZ6m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="website_flask_trial" />
@@ -91,6 +102,56 @@
       <option name="presentableId" value="Default" />
       <updated>1686686084260</updated>
     </task>
+    <task id="LOCAL-00001" summary="Поставлен header и footer">
+      <created>1686776090179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686776090180</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Поставлен header и footer">
+      <created>1686777156650</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686777156651</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Поставлен header и footer">
+      <created>1686777176892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686777176892</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Добавлены стили">
+      <created>1686860816718</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686860816718</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Добавлена страница &quot;поделиться&quot;">
+      <created>1687460122398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687460122398</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Добавлены посты">
+      <created>1687465734615</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687465734615</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Поставлен header и footer" />
+    <MESSAGE value="Добавлены стили" />
+    <MESSAGE value="Добавлена страница &quot;поделиться&quot;" />
+    <MESSAGE value="Добавлены посты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены посты" />
   </component>
 </project>

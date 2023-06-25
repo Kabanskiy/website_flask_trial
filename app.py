@@ -33,10 +33,39 @@ def journeys():
     fishes = Fish.query.order_by(Fish.date.desc()).all()
     return render_template('journeys.html', fishes=fishes)
 
-@app.route('/journeys/int:id>')
+@app.route('/journeys/<int:id>')
 def journey_read(id):
     fish = Fish.query.get(id)
     return render_template('journey_read.html', fish=fish)
+
+@app.route('/journeys/<int:id>/delete')
+def journey_delete(id):
+    fish = Fish.query.get_or_404(id)
+
+    try:
+        db.session.delete(fish)
+        db.session.commit()
+        return redirect('/journeys')
+    except:
+        return 'Что-то пошло не так...'
+
+
+@app.route('/journeys/<int:id>/update', methods=['POST', 'GET'])
+def journey_update(id):
+    fish = Fish.query.get(id)
+    if request.method == 'POST':
+        fish.title = request.form['title']
+        fish.intro = request.form['intro']
+        fish.text = request.form['text']
+
+        try:
+            db.session.commit()
+            return redirect('/journeys')
+        except:
+            return 'Что-то пошло не так...'
+    else:
+        fish = Fish.query.get(id)
+        return render_template('journey_update.html', fish=fish)
 
 @app.route('/create-journey', methods=['POST', 'GET'])
 def create_journey():
